@@ -1,0 +1,25 @@
+strong {
+	font-weight: bold;	
+}
+.x-toolbar-title, .x-toolbar-dark .x-toolbar-title {
+	color: #C33250;
+	text-transform: uppercase;
+	font: 18px Times, sans-serif;
+	margin-top: 12px;	
+}
+.x-toolbar-dark.x-toolbar, .x-panel.x-tabbar.x-tabbar-dark {
+	border: none;	
+}
+.x-panel.x-tabbar.x-tabbar-dark.x-docked.x-docked-top .x-tab.x-tab-normal.x-docked.x-docked-top {
+	display: none;	
+}
+
+.imageDetails {
+	text-align: center;	
+	font-style: italic;
+	background: #fff;
+}
+
+.imageDetails img {
+	margin-top: 20px;	
+}
