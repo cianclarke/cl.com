@@ -11,11 +11,11 @@ app.models.Recent = Ext.regModel('app.models.Recent', {
 
 app.stores.recent = new Ext.data.Store({
   model: 'app.models.Recent',
-  getGroupString: function(record){
-    return record.get('category');
-  },
-  autoLoad: true
-  /*
+  /*getGroupString: function(record){
+    return record.get('category') || '';
+  },*/
+  autoLoad: true,
+  
   data: [
          {
            name: '11011 for S&iacute;ol',
@@ -91,5 +91,5 @@ app.stores.recent = new Ext.data.Store({
            category: 'canvases'
          }
          
-  ]*/
+  ]
 });

@@ -26,7 +26,7 @@ app.views.Recent = Ext.extend(Ext.Panel, {
             '{medium}<br />' +
             '{size}<br />',
             flex: 1,
-            grouped: true,
+            //grouped: true,
             disableSelection : true,
             listeners: {
               itemtap: function(list, index, el, ev){
