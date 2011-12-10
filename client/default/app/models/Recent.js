@@ -1,12 +1,12 @@
 // Controller class named 'Country', not 'Countries'. class = description of an instance of..
 app.models.Recent = Ext.regModel('app.models.Recent', {
   fields: ['title', 'description', 'image'],
-  /*proxy: {
+  proxy: {
     type: 'fhact',
     reader: 'json',
     id: 'getMoreCountries',
     source: 'localRemote'
-  }*/
+  }
 });
 
 app.stores.recent = new Ext.data.Store({
@@ -14,6 +14,8 @@ app.stores.recent = new Ext.data.Store({
   getGroupString: function(record){
     return record.get('category');
   },
+  autoLoad: true
+  /*
   data: [
          {
            name: '11011 for S&iacute;ol',
@@ -80,6 +82,14 @@ app.stores.recent = new Ext.data.Store({
            size: '20" X 16", 2011',
            image: '383.jpg',
            category: 'aluminiums'
+         },
+         {
+           name: 'Casts',
+           medium: 'Acrylic paint on linen',
+           size: '82" X 76", 2011',
+           image: '381.jpg',
+           category: 'canvases'
          }
-  ]
+         
+  ]*/
 });
