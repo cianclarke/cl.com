@@ -15,6 +15,15 @@ var recent = [
                          category: 'aluminiums'
                        },
                        {
+                         name: 'Camac II',
+                         medium: 'Acrylic paint on aluminium',
+                         size: '98" x 96", Sep 2011',
+                         image: '390.jpg',
+                         category: 'aluminiums',
+                         disabed: true
+                       },
+
+                       {
                          name: 'RVR',
                          medium: 'Acrylic paint on aluminium',
                          size: '89" X 49"',

@@ -17,7 +17,9 @@ $fh.ready( {},
         act: "listen"
       }, function (a) {
         setTimeout(function () {
+          app.views.viewport.setOrientation(Ext.getOrientation(), window.innerWidth, window.innerHeight - 1);
           app.views.viewport.setOrientation(Ext.getOrientation(), window.innerWidth, window.innerHeight);
+          app.views.viewport.setOrientation(Ext.getOrientation(), window.innerWidth, window.innerHeight + 1);
           window.scrollTo(0, 0);
           app.views.viewport.doComponentLayout();
         }, 100)
