@@ -20,9 +20,8 @@ var recent = [
                          size: '98" x 96", Sep 2011',
                          image: '390.jpg',
                          category: 'aluminiums',
-                         disabed: true
+                         disabled: true
                        },
-
                        {
                          name: 'RVR',
                          medium: 'Acrylic paint on aluminium',
