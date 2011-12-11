@@ -16,7 +16,7 @@ app.views.Image = Ext.extend(Ext.Panel, {
       click: {    // FIXME: Expand / collapse code here
           element: 'el',
           fn: function() {    // FIXME: Expand / collapse code here
-              container.setActiveItem(0, 'slide');
+              container.setActiveItem(0, {type: 'slide', direction: 'right'});
               me.destroy();
               
           }
