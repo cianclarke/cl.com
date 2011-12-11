@@ -46,7 +46,7 @@ app.views.Image = Ext.extend(Ext.Panel, {
                     text: 'Back',
                     ui: 'back',
                     handler: function(){
-                      container.setActiveItem(0, 'slide');
+                      container.setActiveItem(0, {type: 'slide', direction: 'right'});
                       me.destroy();
                     }
                   }
