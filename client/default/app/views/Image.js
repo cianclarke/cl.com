@@ -25,7 +25,7 @@ app.views.Image = Ext.extend(Ext.Panel, {
       flex: 1
     });
     var panel = new Ext.Panel({
-      tpl: '<img style="height: 80%" src="http://www.ciaranlennon.com/images/lenses/{image}" alt="{title}"/><br />' +
+      tpl: '' +
       '<span class="name">{name}</span><br />'+
       '{medium}<br />'+
       '{size}<br />'
@@ -34,26 +34,27 @@ app.views.Image = Ext.extend(Ext.Panel, {
     panel.update(record);
     
     this.items = [
+      {
+        xtype: 'toolbar',
+        title: title,
+        items: [
+                  {
+                    xtype: 'button',
+                    text: 'Back',
+                    ui: 'back',
+                    handler: function(){
+                      container.setActiveItem(0, 'slide');
+                      me.destroy();
+                    }
+                  }
+                ]
+      },
       image,
       panel
     ];
     
     this.dockedItems = [
-                  {
-                    xtype: 'toolbar',
-                    title: title,
-                    items: [
-                              {
-                                xtype: 'button',
-                                text: 'Back',
-                                ui: 'back',
-                                handler: function(){
-                                  container.setActiveItem(0, 'slide');
-                                  me.destroy();
-                                }
-                              }
-                            ]
-                  }
+                  
     ];
     
     app.views.Image.superclass.initComponent.call(this);
