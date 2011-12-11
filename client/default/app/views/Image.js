@@ -24,7 +24,7 @@ app.views.Image = Ext.extend(Ext.Panel, {
     };
     
     var image = new Ext.Panel({
-      tpl: '<img style="min-width: 500px; min-height: 500px;" src="http://www.ciaranlennon.com/images/lenses/{image}" alt="{name}">',
+      tpl: '<img style="" src="http://www.ciaranlennon.com/images/lenses/{image}" alt="{name}">',
       flex: 1
     });
     var panel = new Ext.Panel({
