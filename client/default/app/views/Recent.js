@@ -27,9 +27,9 @@ app.views.Recent = Ext.extend(Ext.Panel, {
               '<img src="http://www.ciaranlennon.com/images/lenses/{image}">' +
               '</div>' +
               '<div class=floatLeft">' +
-              '<strong>{name}</strong><br />' + 
-            '{medium}<br />' +
-            '{size}<br />' + 
+              '{name}<br />' + 
+            '<span class="medium">{medium}</span><br />' +
+            '<span class="size">{size}</span><br />' + 
             '</div>',
             flex: 1,
             grouped: true,

@@ -47,6 +47,9 @@ strong {
 	height: 1.8em; 
 	font-size: 19px;	
 }
+.x-tabbar-dark.x-docked-top .x-tab.x-tab-normal .x-button-label {
+	font-weight: normal !important;	
+}
 
 .x-tabbar-dark.x-docked-top .x-tab.x-tab-normal, x-tab.x-tab-normal.x-tab-active {
 	text-transform: uppercase;
@@ -70,6 +73,9 @@ strong {
 	text-transform: uppercase;
 	font-size: 18px;
 	padding: 2px 12px;	
+}
+.recentRow .medium, .recentRow .size {
+	font-style: italic;	
 }
 
 .recentRow img {
