@@ -5,9 +5,9 @@ app.controllers.Recent = new Ext.Controller({
       record = options.record;
       var panel = new app.views.Image({
         attachedTo: attachTo,
-        title: record.data.title
+        title: record.data.title,
+        record: record.data
       });
-      panel.update(record.data);
       attachTo.setActiveItem(panel, 'slide');
 
   }
