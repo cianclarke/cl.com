@@ -27,3 +27,57 @@ strong {
 .imageDetails img {
 	margin-top: 20px;	
 }
+
+.home .p, .p{
+	padding: 10px;	
+	font-size: 0.8em;
+}
+.image {
+	padding: 10px;	
+	text-align: center;
+	font-style: italic;
+	font-size: 0.7em;
+}
+.image img {
+	width: 80%;	
+}
+
+.x-toolbar.header {
+	background: transparent;
+	height: 1.8em; 
+	font-size: 19px;	
+}
+
+.x-tabbar-dark.x-docked-top .x-tab.x-tab-normal, x-tab.x-tab-normal.x-tab-active {
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #000;	
+	font: 18px Times, sans-serif;
+	background: transparent;
+	height: 28px;
+}
+
+.x-tabbar-dark.x-docked-top .x-tab.x-tab-normal.x-tab-active {
+	
+	-webkit-box-shadow: none;
+	border-radius: 0;
+	border-bottom: 2px solid #C33250; 	
+}
+
+.x-list-header {
+	color: black;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 2px 12px;	
+}
+
+.recentRow img {
+	width: 100%;	
+}
+.floatLeft {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	padding-right: 12px;
+}

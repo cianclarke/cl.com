@@ -21,12 +21,19 @@ app.views.Recent = Ext.extend(Ext.Panel, {
           {
             xtype: 'list',
             width: '100%',
+            itemCls : 'recentRow',
             store: app.stores.recent,
-            itemTpl: '<strong>{name}</strong><br />' + 
+            itemTpl: '<div class="floatLeft">' +
+              '<img src="http://www.ciaranlennon.com/images/lenses/{image}">' +
+              '</div>' +
+              '<div class=floatLeft">' +
+              '<strong>{name}</strong><br />' + 
             '{medium}<br />' +
-            '{size}<br />',
+            '{size}<br />' + 
+            '</div>',
             flex: 1,
-            //grouped: true,
+            grouped: true,
+            pinHeaders: false,
             disableSelection : true,
             listeners: {
               itemtap: function(list, index, el, ev){
@@ -44,6 +51,7 @@ app.views.Recent = Ext.extend(Ext.Panel, {
       }
     ];
     app.views.Recent.superclass.initComponent.call(this);
+    app.stores.recent.load();
   }
   
 });

@@ -6,29 +6,43 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
         Ext.apply(app.views, {
           home: new app.views.Home(),
           //countries: new app.views.Countries(),
-          recent: new app.views.Recent()
+          recent: new app.views.Recent(),
+          cv: new app.views.CV()
         });
         //put instances of cards into viewport
-        Ext.apply(this, {
+        Ext.apply(this, 
+          {
+            height: '100%',
             items: [
-//                {
-//                  html: '<h1>Ci&aacute;ran Lennon</h1>',
-//                  height: 14
-//                },
-                new Ext.TabPanel({
-                  cardSwitchAnimation: 'slide',
-                  layout: 'fit',
-                  tabBar: new Ext.TabBar({
-                    dock: 'top',
-                    layout: {
-                        pack: 'center'
-                    },
-                  }),
+                {
+                  layout: 'vbox',
+                  defaults: {
+                    width: '100%'
+                  },
                   items: [
-                    app.views.recent,
-                    app.views.home
+                    {
+                      xtype: 'toolbar',
+                      cls: 'header',
+                      title: 'Ciar&aacute;n Lennon'
+                    },
+                    new Ext.TabPanel({
+                      cardSwitchAnimation: 'slide',
+                      flex: 1,
+                      tabBar: new Ext.TabBar({
+                        dock: 'top',
+                        layout: {
+                            pack: 'center'
+                        },
+                      }),
+                      items: [
+                        app.views.recent,
+                        app.views.home,
+                        app.views.cv
+                      ]
+                    }), 
                   ]
-                }),
+                }
+                
                 
             ]
         });

@@ -4,18 +4,18 @@ app.models.Recent = Ext.regModel('app.models.Recent', {
   proxy: {
     type: 'fhact',
     reader: 'json',
-    id: 'getMoreCountries',
+    id: 'getRecent',
     source: 'localRemote'
   }
 });
 
 app.stores.recent = new Ext.data.Store({
   model: 'app.models.Recent',
-  /*getGroupString: function(record){
+  getGroupString: function(record){
     return record.get('category') || '';
-  },*/
-  autoLoad: true,
-  
+  },
+  //autoLoad: true,
+  /*
   data: [
          {
            name: '11011 for S&iacute;ol',
@@ -84,12 +84,43 @@ app.stores.recent = new Ext.data.Store({
            category: 'aluminiums'
          },
          {
+           name: 'Ngrange',
+           medium: 'Acrylic on solid aluminium',
+           size: '06-2009',
+           image: '383.jpg',
+           category: 'aluminiums'
+         },
+         {
+           name: 'For M',
+           medium: 'Acrylic on aluminium',
+           size: '20" X 16", 2011',
+           image: '383.jpg',
+           category: 'aluminiums'
+         },
+         //Canvases
+         {
            name: 'Casts',
            medium: 'Acrylic paint on linen',
            size: '82" X 76", 2011',
            image: '381.jpg',
            category: 'canvases'
+         },
+         {
+           name: 'Monto to Avignon',
+           medium: 'Acrylic paint on linen',
+           size: '79" X 69", 2010',
+           image: '360.jpg',
+           category: 'canvases',
+           collection: 'Collection of C.MacCreanor'
+         },
+         {
+           name: 'IDIR',
+           medium: 'Acrylic on linen',
+           size: '77" X 70", 11-2010',
+           image: '355.jpg',
+           category: 'canvases',
+           collection: 'Collection of C.Z. Jones & M. Douglas '
          }
          
-  ]
+  ]*/
 });
