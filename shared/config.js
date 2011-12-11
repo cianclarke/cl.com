@@ -1,5 +1,12 @@
 var recent = [
                        {
+                         name: '10112 for Siol',
+                         medium: 'abc',
+                         size: '23',
+                         image: '392.jpg',
+                         category: 'aluminiums'
+                       },
+                       {
                          name: '11011 for S&iacute;ol',
                          medium: 'Acrylic paint on aluminium',
                          size: '89" X 85" 2011',
