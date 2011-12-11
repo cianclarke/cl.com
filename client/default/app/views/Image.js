@@ -3,6 +3,9 @@ app.views.Image = Ext.extend(Ext.Panel, {
   title: 'Image Details',
   cls: 'imageDetails',
  layout: 'vbox',
+ defaults: {
+    width: '100%'
+  },
   initComponent: function(){
     var me = this;
     var container = this.attachedTo;
