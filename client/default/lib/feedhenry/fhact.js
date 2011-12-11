@@ -272,8 +272,8 @@ $fh.sync = function(params, success, failure){
     failure({msg: 'Required parameter "req" missing'});    
     return;
   }
-  
-  $fh.hash({
+  sinker(params, success, failure, params.act);
+  /*$fh.hash({
     algorithm: "md5",
     text: JSON.stringify(params) 
   }, function (hash){
@@ -284,7 +284,7 @@ $fh.sync = function(params, success, failure){
       
     failure({msg: err});
   });
-
+*/
   return;
     
    /*
