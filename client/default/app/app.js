@@ -21,5 +21,5 @@ $fh.ready( {},
           window.scrollTo(0, 0);
           app.views.viewport.doComponentLayout();
         }, 100)
+      });
 });
-
