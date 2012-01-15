@@ -1,5 +1,6 @@
 app.views.Home = Ext.extend(Ext.Panel, {
   title: 'About',
+  iconCls: 'user',
   scroll: 'vertical',
   cls: 'home',
   items: [

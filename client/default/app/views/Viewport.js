@@ -6,6 +6,7 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
         Ext.apply(app.views, {
           home: new app.views.Home(),
           //countries: new app.views.Countries(),
+          exhibitions: new app.views.Exhibitions(),
           recent: new app.views.Recent(),
           cv: new app.views.CV()
         });
@@ -29,13 +30,14 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
                       cardSwitchAnimation: 'slide',
                       flex: 1,
                       tabBar: new Ext.TabBar({
-                        dock: 'top',
+                        dock: 'bottom',
                         layout: {
                             pack: 'center'
                         },
                       }),
                       items: [
                         app.views.recent,
+                        app.views.exhibitions,
                         app.views.home,
                         app.views.cv
                       ]

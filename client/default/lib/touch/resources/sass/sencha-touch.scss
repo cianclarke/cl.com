@@ -2,7 +2,11 @@ $base-color: #fff;
 $base-gradient: 'flat';
 //$active-color: #cc3333;
 //$list-header-bg-color:#cc3333;
-$tabs-dark: #F0F0F0;
+$tabs-dark: #333;
+$tabs-bottom-gradient: 'bevel';
+$tabs-bar-gradient: 'matte';
+$tabs-bottom-active-gradient: 'recessed';
+
  
  // Feedhenry app: base #333333 / accent #cc3333
  // Crazy rust colour: #7A1E08
@@ -25,3 +29,5 @@ $tabs-dark: #F0F0F0;
 @include sencha-form;
 @include sencha-msgbox;
 @include sencha-loading-spinner;
+@include pictos-iconmask(refresh);
+@include pictos-iconmask(refresh1);

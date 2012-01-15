@@ -51,14 +51,6 @@ strong {
 	font-weight: normal !important;	
 }
 
-.x-tabbar-dark.x-docked-top .x-tab.x-tab-normal, x-tab.x-tab-normal.x-tab-active {
-	text-transform: uppercase;
-	font-weight: normal;
-	color: #000;	
-	font: 18px Times, sans-serif;
-	background: transparent;
-	height: 28px;
-}
 
 .x-tabbar-dark.x-docked-top .x-tab.x-tab-normal.x-tab-active {
 	
@@ -91,4 +83,14 @@ strong {
 	display: inline-block;
 	width: 50%;
 	padding-right: 12px;
+}
+
+.x-tabbar-dark.x-docked-bottom .x-tab-active img {
+  background-color: #D96565;
+  background-image: none !important;  
+  
+}
+
+.x-toolbar-dark .x-button img.x-icon-mask {
+  background-color: #C33250;  
 }

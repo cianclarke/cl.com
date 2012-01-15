@@ -1,6 +1,7 @@
 app.views.CV = Ext.extend(Ext.Panel, {
   title: 'CV',
   scroll: 'vertical',
+  iconCls: 'user',
   cls: 'home',
   items: [
   {
