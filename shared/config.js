@@ -113,3 +113,33 @@ var recent = [
                        }
                        
                 ];
+
+var dailies = [
+              {
+                image: '001.jpg',
+              },
+              {
+                image: '002.jpg',
+              },
+              {
+                image: '003.jpg',
+              },
+              {
+                image: '004.jpg',
+              },
+              {
+                image: '005.jpg',
+              },
+              {
+                image: '006.jpg',
+              },
+              {
+                image: '007.jpg',
+              },
+              {
+                image: '008.jpg',
+              },
+              {
+                image: '009.jpg',
+              },
+       ];

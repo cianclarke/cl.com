@@ -8,6 +8,7 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
           //countries: new app.views.Countries(),
           exhibitions: new app.views.Exhibitions(),
           recent: new app.views.Recent(),
+          dailies: new app.views.Dailies(),
           cv: new app.views.CV()
         });
         //put instances of cards into viewport
@@ -37,6 +38,7 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
                       }),
                       items: [
                         app.views.recent,
+                        app.views.dailies,
                         app.views.exhibitions,
                         app.views.home,
                         app.views.cv
