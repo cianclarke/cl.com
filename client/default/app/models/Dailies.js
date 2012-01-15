@@ -4,7 +4,7 @@ app.models.Dailies = Ext.regModel('app.models.Dailies', {
   proxy: {
     type: 'fhact',
     reader: 'json',
-    id: 'getDalies',
+    id: 'getDailies',
     source: 'localRemote'
   }
 });
