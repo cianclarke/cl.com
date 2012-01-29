@@ -12,7 +12,7 @@ app.models.Exhibitions = Ext.regModel('app.models.Exhibtiions', {
 app.stores.exhibitions = new Ext.data.Store({
   model: 'app.models.Exhibtiions',
   //autoLoad: true,
-  /*
+/*
   data: [
          {
            name: 'RHA',
@@ -63,6 +63,6 @@ app.stores.exhibitions = new Ext.data.Store({
            lat: '54.602211',
            long: '-5.931513'
          },
-  ]
-*/
+  ]*/
+
 });
