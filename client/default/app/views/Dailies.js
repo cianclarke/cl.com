@@ -1,7 +1,7 @@
 app.views.Dailies = Ext.extend(Ext.Panel, {
   title: 'Dailies',
   cls: 'exhibitions',
-  iconCls: 'broadcast',
+  iconCls: 'calendar',
   width: '100%',
   layout: {
     type: 'card'
@@ -44,7 +44,9 @@ app.views.Dailies = Ext.extend(Ext.Panel, {
               '<img src="http://www.ciaranlennon.com/images/dailies/{image}">' +
               '</div>' +
               '<div class=floatLeft">' +
-              '<br />' + 
+              '{name}<br />' + 
+            '<span class="medium">{medium}</span><br />' +
+            '<span class="size">{size}</span><br />' + 
             '</div>',
             flex: 1,
             pinHeaders: false,
