@@ -23,5 +23,11 @@ function getDailies(){
 }
 
 function getExhibitions(){
-  
+  for (var i=0; i<exhibitions.length; i++){
+    var r = dailies[i];
+    if (!r.disabled){
+      ret.push(r);   
+    }
+  }
+  return exhibitions;
 }
