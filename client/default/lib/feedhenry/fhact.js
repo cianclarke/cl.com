@@ -117,11 +117,15 @@ Ext.ux.FHActProxy = Ext.extend(Ext.data.Proxy, {
    * @return {Function} The callback function
    */
     createRequestCallback: function(operation, callback, scope, syncCallback) {
-        
       
       var me = this;
       
       return function(response){
+       
+      // NodeJS functions return {data: ['array1', 'array2']
+      if (!response.length){
+        response = response.data;
+      }
       
       var result = {};
       var reader  = me.getReader();

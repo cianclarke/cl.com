@@ -21,3 +21,7 @@ function getDailies(){
   }
   return ret;
 }
+
+function getExhibitions(){
+  
+}

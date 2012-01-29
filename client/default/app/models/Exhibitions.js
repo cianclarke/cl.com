@@ -2,17 +2,18 @@
 app.models.Exhibitions = Ext.regModel('app.models.Exhibtiions', {
   fields: ['name', 'medium', 'size', 'image', 'category', 'images', 'lat', 'long'],
   proxy: 'memory'
-  /*proxy: {
+  proxy: {
     type: 'fhact',
     reader: 'json',
     id: 'getExhibitions',
     source: 'localRemote'
-  }*/
+  }
 });
 
 app.stores.exhibitions = new Ext.data.Store({
   model: 'app.models.Exhibtiions',
   //autoLoad: true,
+  /*
   data: [
          {
            name: 'RHA',
@@ -64,4 +65,5 @@ app.stores.exhibitions = new Ext.data.Store({
            long: '-5.931513'
          },
   ]
+*/
 });
