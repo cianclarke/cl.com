@@ -152,8 +152,7 @@ var exhibitions = [
                      images: ['images/RHA1.jpg', 'images/RHA2.jpg', 'images/RHA3.jpg', 'images/RHA4.jpg', 'images/RHA5.jpg', 'images/RHA6.jpg', 'images/RHA7.jpg'],
                      image: 'images/RHA1.jpg',
                      lat: '53.337201',
-                     long: '-6.254546'
-                     
+                     longitudeitude: '-6.254546'
                    },
                    {
                      name: 'Jocasta',
@@ -161,7 +160,7 @@ var exhibitions = [
                      images: ['images/jocasta1.jpg', 'images/jocasta2.jpg', 'images/jocasta3.jpg', 'images/jocasta4.jpg', 'images/jocasta5.jpg'],
                      image: 'images/jocasta1.jpg',
                      lat: '48.844644',
-                     long: '2.345877'
+                     longitude: '2.345877'
                    },
                    {
                      name: 'Arken',
@@ -169,7 +168,7 @@ var exhibitions = [
                      images: ['images/arken1.jpg', 'images/arken2.jpg', 'images/arken3.jpg', 'images/arken4.jpg', 'images/arken5.jpg'],
                      image: 'images/arken1.jpg',
                      lat: '55.608782',
-                     long: '12.387916'
+                     longitude: '12.387916'
                    },
                    {
                      name: 'Hapax',
@@ -177,7 +176,7 @@ var exhibitions = [
                      images: ['images/hapax1.jpg', 'images/hapax2.jpg'],
                      image: 'images/hapax1.jpg',
                      lat: '53.341384',
-                     long: '-6.252115'
+                     longitude: '-6.252115'
                    },
                    {
                      name: 'DHG',
@@ -185,7 +184,7 @@ var exhibitions = [
                      images: ['images/douglashyde1.jpg', 'images/douglashyde2.jpg'],
                      image: 'images/douglashyde1.jpg',
                      lat: '53.343484',
-                     long: '-6.257436'
+                     longitude: '-6.257436'
                    },
                    {
                      name: 'Fenderesky',
@@ -193,6 +192,6 @@ var exhibitions = [
                      images: ['images/fenderesky1.jpg', 'images/fenderesky2.jpg'],
                      image: 'images/fenderesky1.jpg',
                      lat: '54.602211',
-                     long: '-5.931513'
+                     longitude: '-5.931513'
                    }
 ];

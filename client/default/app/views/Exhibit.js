@@ -10,7 +10,7 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     record = this.record,
     images = record.images,
     lat = record.lat || "53.337201",
-    long = record.long || "-6.254546";
+    long = record.longitude || "-6.254546";
     
     
     
