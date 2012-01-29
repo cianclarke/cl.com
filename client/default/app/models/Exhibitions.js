@@ -1,7 +1,6 @@
 // Controller class named 'Country', not 'Countries'. class = description of an instance of..
 app.models.Exhibitions = Ext.regModel('app.models.Exhibtiions', {
   fields: ['name', 'medium', 'size', 'image', 'category', 'images', 'lat', 'long'],
-  proxy: 'memory'
   proxy: {
     type: 'fhact',
     reader: 'json',
