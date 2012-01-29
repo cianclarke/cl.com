@@ -194,5 +194,5 @@ var exhibitions = [
                      image: 'images/fenderesky1.jpg',
                      lat: '54.602211',
                      long: '-5.931513'
-                   },
-            ];
+                   }
+];
