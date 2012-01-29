@@ -19,7 +19,8 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     for (var i=0; i<images.length; i++){
       var image = new Ext.Panel({
         html: '<img style="" src="http://www.ciaranlennon.com/' + images[i] + '" alt="Exhibition Image">',
-        height: '100%',
+        flex: 1
+        //height: '100%',
       });  
       imagePanels.push(image);
     }
