@@ -1,7 +1,7 @@
 app.views.Exhibitions = Ext.extend(Ext.Panel, {
   title: 'Exhibitions',
   cls: 'exhibitions',
-  iconCls: 'user',
+  iconCls: 'globe_black',
   width: '100%',
   layout: {
     type: 'card'
@@ -28,7 +28,7 @@ app.views.Exhibitions = Ext.extend(Ext.Panel, {
                 iconCls: 'refresh1',
                 iconMask: true,
                 handler: function(){
-                app.stores.recent.load();
+                app.stores.exhibitions.load();
                 }
                 
               }
@@ -39,24 +39,21 @@ app.views.Exhibitions = Ext.extend(Ext.Panel, {
             xtype: 'list',
             width: '100%',
             itemCls : 'recentRow',
-            store: app.stores.recent,
+            store: app.stores.exhibitions,
             itemTpl: '<div class="floatLeft">' +
-              '<img src="http://www.ciaranlennon.com/images/lenses/{image}">' +
+              '<img src="http://www.ciaranlennon.com/{image}">' +
               '</div>' +
               '<div class=floatLeft">' +
-              '{name}<br />' + 
+              '<h2>{name}</h2><br />' + 
             '<span class="medium">{medium}</span><br />' +
-            '<span class="size">{size}</span><br />' + 
             '</div>',
             flex: 1,
-            grouped: true,
-            pinHeaders: false,
             disableSelection : true,
             listeners: {
               itemtap: function(list, index, el, ev){
                 var r = list.store.getAt(index); 
                 Ext.dispatch({
-                  controller: app.controllers.Recent,
+                  controller: app.controllers.Exhibit,
                   action: 'show',
                   record: r,
                   attachTo: app.views.viewport
@@ -68,7 +65,7 @@ app.views.Exhibitions = Ext.extend(Ext.Panel, {
       }
     ];
     app.views.Exhibitions.superclass.initComponent.call(this);
-    app.stores.recent.load();
+    app.stores.exhibitions.load();
   }
   
 });

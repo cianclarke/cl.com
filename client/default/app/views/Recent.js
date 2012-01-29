@@ -1,7 +1,7 @@
 app.views.Recent = Ext.extend(Ext.Panel, {
   title: 'Recent',
   cls: 'recent',
-  iconCls: 'user',
+  iconCls: 'home',
   width: '100%',
   layout: {
     type: 'card'

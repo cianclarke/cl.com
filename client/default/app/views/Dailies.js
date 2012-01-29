@@ -1,7 +1,7 @@
 app.views.Dailies = Ext.extend(Ext.Panel, {
   title: 'Dailies',
   cls: 'exhibitions',
-  iconCls: 'user',
+  iconCls: 'broadcast',
   width: '100%',
   layout: {
     type: 'card'

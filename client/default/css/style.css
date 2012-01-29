@@ -78,6 +78,14 @@ strong {
 	width: 100%;
 	min-height: 170px;	
 }
+
+.recentRow h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+.recentRow .exyear {
+  font-style: italic;
+}
 .floatLeft {
 	float: left;
 	display: inline-block;
@@ -93,4 +101,8 @@ strong {
 
 .x-toolbar-dark .x-button img.x-icon-mask {
   background-color: #C33250;  
+}
+
+.x-tabbar .x-tab:last-child{
+  display: none;
 }
