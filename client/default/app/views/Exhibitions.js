@@ -41,7 +41,10 @@ app.views.Exhibitions = Ext.extend(Ext.Panel, {
             itemCls : 'recentRow',
             store: app.stores.exhibitions,
             itemTpl: '<div class="floatLeft">' +
-              '<img src="http://www.ciaranlennon.com/{image}">' +
+                  '<tpl for="images">' +
+                  '' +
+                  '<img src="http://www.ciaranlennon.com/{.}" alt="Preloader Image" style="display: {[xindex === 1 ? "block" : "none"]};">' +
+                  '</tpl>' +
               '</div>' +
               '<div class=floatLeft">' +
               '<h2>{name}</h2><br />' + 
