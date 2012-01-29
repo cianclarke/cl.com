@@ -26,10 +26,11 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     
     var carousel = new Ext.Carousel({
       items: imagePanels, 
-      flex: 1
+      height: '100%'
     });
     
     var panel = new Ext.Panel({
+      height: 66,
       tpl: '' +
       '<span class="name">{name}</span><br />'+
       '{medium}<br />'+
@@ -47,14 +48,15 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     
     
     this.items = [
-      {
+      /*{
         layout: 'vbox',
         defaults: {
            width: '100%'
          },
          height: '100%',
-         items: [carousel, panel]
-      },
+         items: []
+      },*/
+      carousel, panel,
       map
     ];
     
