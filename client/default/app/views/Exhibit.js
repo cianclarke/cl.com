@@ -19,14 +19,12 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     for (var i=0; i<images.length; i++){
       var image = new Ext.Panel({
         html: '<img style="max-width: 100%; height: auto;" src="http://www.ciaranlennon.com/' + images[i] + '" alt="Exhibition Image">',
-        height: '100%'
       });  
       imagePanels.push(image);
     }
     
     var carousel = new Ext.Carousel({
       items: imagePanels, 
-      height: 500
     });
     
     var panel = new Ext.Panel({
