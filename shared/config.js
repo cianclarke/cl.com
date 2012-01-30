@@ -116,6 +116,9 @@ var recent = [
 
 var dailies = [
               {
+                image: '010.jpg', 
+              },
+              {
                 image: '001.jpg',
               },
               {
