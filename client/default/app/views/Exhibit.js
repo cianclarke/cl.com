@@ -25,6 +25,7 @@ app.views.Exhibit = Ext.extend(Ext.Panel, {
     
     var carousel = new Ext.Carousel({
       items: imagePanels, 
+      height: 262
     });
     
     var panel = new Ext.Panel({
