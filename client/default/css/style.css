@@ -2,7 +2,7 @@ strong {
 	font-weight: bold;	
 }
 .x-toolbar-title, .x-toolbar-dark .x-toolbar-title {
-	color: #C33250;
+	color: #fff;
 	text-transform: uppercase;
 	font: 18px Times, sans-serif;
 	margin-top: 12px;	
@@ -43,7 +43,6 @@ strong {
 }
 
 .x-toolbar.header {
-	background: transparent;
 	height: 1.8em; 
 	font-size: 19px;	
 }

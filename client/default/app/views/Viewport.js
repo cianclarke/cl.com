@@ -22,11 +22,6 @@ app.views.Viewport = Ext.extend(Ext.Panel, {
                     width: '100%'
                   },
                   items: [
-                    {
-                      xtype: 'toolbar',
-                      cls: 'header',
-                      title: 'Ciar&aacute;n Lennon'
-                    },
                     new Ext.TabPanel({
                       cardSwitchAnimation: 'slide',
                       flex: 1,
