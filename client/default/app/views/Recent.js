@@ -40,6 +40,7 @@ app.views.Recent = Ext.extend(Ext.Panel, {
             width: '100%',
             itemCls : 'recentRow',
             store: app.stores.recent,
+            onItemDisclosure: true,
             itemTpl: '<div class="floatLeft">' +
               '<img src="http://www.ciaranlennon.com/images/lenses/{image}">' +
               '</div>' +

@@ -37,6 +37,7 @@ app.views.Dailies = Ext.extend(Ext.Panel, {
           },
           {
             xtype: 'list',
+            onItemDisclosure: true,
             width: '100%',
             itemCls : 'recentRow',
             store: app.stores.dailies,

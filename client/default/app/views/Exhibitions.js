@@ -38,6 +38,7 @@ app.views.Exhibitions = Ext.extend(Ext.Panel, {
           {
             xtype: 'list',
             width: '100%',
+            onItemDisclosure: true,
             itemCls : 'recentRow',
             store: app.stores.exhibitions,
             itemTpl: '<div class="floatLeft">' +
