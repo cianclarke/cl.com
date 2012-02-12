@@ -77,7 +77,7 @@ var recent = [
                          name: 'Ngrange',
                          medium: 'Acrylic on solid aluminium',
                          size: '06-2009',
-                         image: '383.jpg',
+                         image: '070.jpg',
                          category: 'aluminiums'
                        },
                        {
@@ -85,7 +85,8 @@ var recent = [
                          medium: 'Acrylic on aluminium',
                          size: '20" X 16", 2011',
                          image: '383.jpg',
-                         category: 'aluminiums'
+                         category: 'aluminiums',
+                         disabled: true
                        },
                        //Canvases
                        {
@@ -116,35 +117,110 @@ var recent = [
 
 var dailies = [
               {
-                image: '010.jpg', 
+                image: 'dailies/010.jpg', 
+                disabled: true
               },
               {
-                image: '001.jpg',
+                image: 'dailies/001.jpg',
+                disabled: true
               },
               {
-                image: '002.jpg',
+                image: 'dailies/002.jpg',
+                disabled: true
               },
               {
-                image: '003.jpg',
+                image: 'dailies/003.jpg',
+                disabled: true
               },
               {
-                image: '004.jpg',
+                image: 'dailies/004.jpg',
+                disabled: true
               },
               {
-                image: '005.jpg',
+                image: 'dailies/005.jpg',
+                disabled: true
               },
               {
-                image: '006.jpg',
+                image: 'dailies/006.jpg',
+                disabled: true
               },
               {
-                image: '007.jpg',
+                image: 'dailies/007.jpg',
+                disabled: true
               },
               {
-                image: '008.jpg',
+                image: 'dailies/008.jpg',
+                disabled: true
               },
               {
-                image: '009.jpg',
+                image: 'dailies/009.jpg',
+                disabled: true
               },
+              {
+                image: 'dailies/010.jpg',
+                disabled: true
+              },
+              {
+                image: 'dailies/011.jpg',
+              },
+              {
+                image: 'dailies/012.jpg',
+              },
+              {
+                image: 'dailies/013.jpg',
+              },
+              {
+                image: 'dailies/014.jpg',
+              },
+              {
+                image: 'dailies/015.jpg',
+              },
+              {
+                image: 'dailies/016.jpg',
+              },
+              {
+                image: 'dailies/017.jpg',
+              },
+              {
+                image: 'dailies/018.jpg',
+              },
+              {
+                image: 'dailies/019.jpg',
+              },
+              {
+                image: 'dailies/020.jpg',
+              },
+              {
+                image: 'dailies/021.jpg',
+              },
+              {
+                image: 'dailies/022.jpg',
+              },
+              {
+                image: 'dailies/023.jpg',
+              },
+              {
+                image: 'dailies/024.jpg',
+              },
+              {
+                image: 'dailies/025.jpg',
+              },
+              {
+                image: 'dailies/026.jpg',
+              },
+              {
+                image: 'dailies/027.jpg',
+              },
+              {
+                image: 'dailies/028.jpg',
+              },
+              {
+                image: 'dailies/029.jpg',
+              },
+              {
+                image: 'dailies/030.jpg',
+              },
+              
        ];
 
 
