@@ -28,6 +28,8 @@ app.views.CV = Ext.extend(Ext.Panel, {
     '<li>The Gallerie Wienberger, Copenhagen, 1999</li>' +
     '<li>The Galerie Lahumier, Paris, 1996</li>' +
     '<li>The Arken Museum of Contemporary Art, Copenhagen, 2004</li>' +
+    '<li>Royal Hibernian Academy, Dublin, 2009</li>' +
+    '<li>Centre Culturel Irlandais, Paris, 2010</li>'+
     '</ul>' ,
     cls: 'p'
   },
