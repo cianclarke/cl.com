@@ -58,6 +58,9 @@ app.views.CV = Ext.extend(Ext.Panel, {
   },
   {
     xtype: 'panel',
+    style: {
+    	textAlign: "center"
+    },
     html: '<img style="width: 80%;" src="http://www.ciaranlennon.com/images/portrait2.jpg" alt=""/><br />'
   }
   ]
