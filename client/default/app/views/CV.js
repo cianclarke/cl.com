@@ -58,7 +58,7 @@ app.views.CV = Ext.extend(Ext.Panel, {
   },
   {
     xtype: 'panel',
-    html: '<img src="http://www.ciaranlennon.com/images/portrait2.jpg" alt=""/><br />'
+    html: '<img style="width: 80%;" src="http://www.ciaranlennon.com/images/portrait2.jpg" alt=""/><br />'
   }
   ]
   
