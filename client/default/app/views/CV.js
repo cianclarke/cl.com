@@ -9,7 +9,8 @@ app.views.CV = Ext.extend(Ext.Panel, {
     title: 'CURRICULUM VITAE'
   },
   {
-    html: 'Ciar&aacute;n Lennon was born in Dublin in 1947. He lives and works in Dublin. <br />',
+    html: 'Ciar&aacute;n Lennon was born in Dublin in 1947. He lives and works in Dublin. <br />' +
+    '<img src="http://www.ciaranlennon.com/images/portrait2.jpg" alt=""/><br />',
     cls: 'p'
   },
   {
@@ -49,6 +50,9 @@ app.views.CV = Ext.extend(Ext.Panel, {
     '<li>Ms. R. Stella, Paris, France</li>'+
     '<li>Scott Tallon Walker, Architects, Dublin, Ireland</li>'+
     '<li>Dr. Ronald Tallon, Architect, Dublin, Ireland</li>'+
+    '<li>M. McConn, Belfast, N. Ireland</li>'+
+	  '<li>C. McCreanor, Belfast, N. Ireland</li>'+
+	  '<li>E. Malley, Belfast, N. Ireland</li>'+
     '</ul>',
     cls: 'p'
   }
