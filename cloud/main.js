@@ -13,7 +13,7 @@ function getRecent(){
 function getDailies(){
   // returns the global in shared
   var ret = [];
-  for (var i=dailies.length-1; i<0; i--){
+  for (var i=dailies.length-1; i>0; i--){
     var r = dailies[i];
     if (!r.disabled){
       ret.push(r);   
