@@ -117,111 +117,135 @@ var recent = [
 
 var dailies = [
               {
-                image: 'dailies/010.jpg', 
-                disabled: true
+                "image": "dailies/010.jpg", 
+                "disabled": true
               },
               {
-                image: 'dailies/001.jpg',
-                disabled: true
+                "image": "dailies/001.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/002.jpg',
-                disabled: true
+                "image": "dailies/002.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/003.jpg',
-                disabled: true
+                "image": "dailies/003.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/004.jpg',
-                disabled: true
+                "image": "dailies/004.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/005.jpg',
-                disabled: true
+                "image": "dailies/005.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/006.jpg',
-                disabled: true
+                "image": "dailies/006.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/007.jpg',
-                disabled: true
+                "image": "dailies/007.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/008.jpg',
-                disabled: true
+                "image": "dailies/008.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/009.jpg',
-                disabled: true
+                "image": "dailies/009.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/010.jpg',
-                disabled: true
+                "image": "dailies/010.jpg",
+                "disabled": true
               },
               {
-                image: 'dailies/011.jpg',
+                "image": "dailies/011.jpg"
               },
               {
-                image: 'dailies/012.jpg',
+                "image": "dailies/012.jpg"
               },
               {
-                image: 'dailies/013.jpg',
+                "image": "dailies/013.jpg"
               },
               {
-                image: 'dailies/014.jpg',
+                "image": "dailies/014.jpg"
               },
               {
-                image: 'dailies/015.jpg',
+                "image": "dailies/015.jpg"
               },
               {
-                image: 'dailies/016.jpg',
+                "image": "dailies/016.jpg"
               },
               {
-                image: 'dailies/017.jpg',
+                "image": "dailies/017.jpg"
               },
               {
-                image: 'dailies/018.jpg',
+                "image": "dailies/018.jpg"
               },
               {
-                image: 'dailies/019.jpg',
+                "image": "dailies/019.jpg"
               },
               {
-                image: 'dailies/020.jpg',
+                "image": "dailies/020.jpg"
               },
               {
-                image: 'dailies/021.jpg',
+                "image": "dailies/021.jpg"
               },
               {
-                image: 'dailies/022.jpg',
+                "image": "dailies/022.jpg"
               },
               {
-                image: 'dailies/023.jpg',
+                "image": "dailies/023.jpg"
               },
               {
-                image: 'dailies/024.jpg',
+                "image": "dailies/024.jpg"
               },
               {
-                image: 'dailies/025.jpg',
+                "image": "dailies/025.jpg"
               },
               {
-                image: 'dailies/026.jpg',
+                "image": "dailies/026.jpg"
               },
               {
-                image: 'dailies/027.jpg',
+                "image": "dailies/027.jpg"
               },
               {
-                image: 'dailies/028.jpg',
+                "image": "dailies/028.jpg"
               },
               {
-                image: 'dailies/029.jpg',
+                "image": "dailies/029.jpg"
               },
               {
-                image: 'dailies/030.jpg',
+                "image": "dailies/030.jpg"
               },
+              {
+                "image": "dailies/031.jpg",
+                "disabled": true
+              },
+              {
+                "image": "dailies/032.jpg"
+              },
+              {
+                "image": "dailies/033.jpg"
+              },
+              {
+                "image": "dailies/034.jpg"
+              },
+              {
+                "image": "dailies/035.jpg"
+              },
+              {
+                "image": "dailies/036.jpg"
+              },
+              {
+                "image": "dailies/037.jpg"
+              }
+
               
-       ];
+  ];
+
 
 
 var exhibitions = [
